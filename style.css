@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 23px;
+}
+
+.first img {
+    height: 50px;
+    position: relative;
+    top: 16px;
+    left: 180px;
+}
+
+.third button {
+    padding: 20px;
+    border-radius: 24px;
+    position: relative;
+    right: 200px;
+    background-color: white;
+    font-size: bold;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+main .section_one{
+    position: relative;
+    left: 140px;
+}
+
+main .section_two{
+    position: relative;
+    right: 120px;
+}
+
+.section_one div {
+    width: 400px;
+    font-size: 3rem;
+}
+
+.section_one p {
+    font-size: 30px;
+    width: 600px;
+}
+
+.section_one button {
+    padding: 24px;
+    border-radius: 15px;
+    background-color: rgb(42, 40, 40);
+    color: white;
+    cursor: pointer;
+    width: 250px;
+    position: relative;
+    top: 20px;
+    font-size: 1rem;
+}
+
+.brands ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+
+.brands li{
+    list-style: none;
+}
+
+main .service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
